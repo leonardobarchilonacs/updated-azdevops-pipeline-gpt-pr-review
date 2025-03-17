@@ -1,10 +1,10 @@
 {
-  "id": "b42fa530-c4a6-11ed-87f6-d1f44a1fead1",
-  "name": "GPTPullRequestReview",
+  "id": "f19fcf66-0086-4a91-939c-8aec10bb436b",
+  "name": "GPTPRReviewB",
   "friendlyName": "Review PullRequest by GPT",
   "description": "This task use OpenAi GPT model to review PullRequests",
-  "author": "Mustapha Larhrouch",
-  "helpMarkDown": "[More Information](https://github.com/mlarhrouch/azure-pipeline-gpt-pr-review)",
+  "author": "Leonardo Barchilon",
+  "helpMarkDown": "[More Information](https://github.com/leonardobarchilonacs/updated-azdevops-pipeline-gpt-pr-review)",
   "category": "Utility",
   "visibility": [
     "Build"
@@ -13,10 +13,10 @@
   "version": {
     "Major": "0",
     "Minor": "12",
-    "Patch": "4"
+    "Patch": "6"
   },
   "minimumAgentVersion": "1.95.0",
-  "instanceNameFormat": "GPTPullRequestReview $(message)",
+  "instanceNameFormat": "GPTPRReviewB $(message)",
   "inputs": [
     {
       "name": "api_key",
@@ -57,7 +57,7 @@
     }
   ],
   "execution": {
-    "Node10": {
+    "Node18": {
       "target": "dist/index.js"
     }
   }

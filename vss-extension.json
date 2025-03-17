@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "GPTPullRequestReview",
+    "id": "GPTPRReviewB",
     "name": "GPT Pull Request Review",
-    "version": "0.12.4",
+    "version": "0.12.6",
     "publisher": "leonardobarchilonacs",
     "galleryFlags": [
         "Public",
@@ -28,12 +28,12 @@
     ],
     "files": [
         {
-            "path": "GPTPullRequestReview"
+            "path": "GPTPRReviewB"
         }
     ],
     "repository" : {
         "type" : "git",
-        "uri" : "https://github.com/mlarhrouch/azure-pipeline-gpt-pr-review"
+        "uri" : "https://github.com/leonardobarchilonacs/updated-azdevops-pipeline-gpt-pr-review"
     },
     "content": {
         "details": {
@@ -42,13 +42,13 @@
     },
     "contributions": [
         {
-            "id": "GPTPullRequestReview",
+            "id": "GPTPRReviewB",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "GPTPullRequestReview"
+                "name": "GPTPRReviewB"
             }
         }
     ]
