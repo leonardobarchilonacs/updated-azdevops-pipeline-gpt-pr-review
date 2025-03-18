@@ -16,9 +16,16 @@ export async function reviewFile(targetBranch: string, fileName: string, httpsAg
         Each patch entry has the commit message in the Subject line followed by the code changes (diffs) in a unidiff format.
 
         As a code reviewer, your task is:
+                - Succintly summarize the pull request within 100 words, below this structure:
+                  <pull_request_title> Summary </pull_request_title>
+                - Your summary should include a note about alterations to the signatures of exported functions, 
+                  global data structures and variables, and any changes that might affect the external interface or behavior of the code.
                 - Review only added, edited or deleted lines.
                 - If there's no bugs and the changes are correct, write only 'No feedback.'
-                - If there's bug or uncorrect code changes, don't write 'No feedback.'`;
+                - If there's bug or uncorrect code changes, don't write 'No feedback.'
+                - Please evaluate the diff thoroughly and take into account factors such as the number of lines changed, the potential impact on the overall system, 
+                  and the likelihood of introducing new bugs or security vulnerabilities. 
+                  When in doubt, always err on the side of caution and triage the diff as NEEDS_REVIEW.`;
 
   try {
     let choices: any;
