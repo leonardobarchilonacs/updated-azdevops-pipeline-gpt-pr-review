@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "GPTPRReviewB",
-    "name": "GPT Pull Request Review",
-    "version": "0.12.7",
+    "id": "AquarelaPRReview",
+    "name": "Aquarela Pull Request Review",
+    "version": "0.1.1",
     "publisher": "leonardobarchilonacs",
     "galleryFlags": [
         "Public",
@@ -28,7 +28,7 @@
     ],
     "files": [
         {
-            "path": "GPTPRReviewB"
+            "path": "AquarelaPRReview"
         }
     ],
     "repository" : {
@@ -42,13 +42,13 @@
     },
     "contributions": [
         {
-            "id": "GPTPRReviewB",
+            "id": "AquarelaPRReview",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "GPTPRReviewB"
+                "name": "AquarelaPRReview"
             }
         }
     ]
