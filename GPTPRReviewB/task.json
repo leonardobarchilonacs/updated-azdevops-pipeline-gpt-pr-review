@@ -9,11 +9,14 @@
   "visibility": [
     "Build"
   ],
+  "runsOn": [
+    "Linux"
+  ],
   "demands": [],
   "version": {
     "Major": "0",
     "Minor": "12",
-    "Patch": "6"
+    "Patch": "7"
   },
   "minimumAgentVersion": "1.95.0",
   "instanceNameFormat": "GPTPRReviewB $(message)",

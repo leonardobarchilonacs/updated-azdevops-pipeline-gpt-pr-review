@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "GPTPRReviewB",
     "name": "GPT Pull Request Review",
-    "version": "0.12.6",
+    "version": "0.12.7",
     "publisher": "leonardobarchilonacs",
     "galleryFlags": [
         "Public",
